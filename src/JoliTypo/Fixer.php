@@ -35,6 +35,8 @@ class Fixer
     const REG                 = '®'; // &reg;
     const COPY                = '©'; // &copy;
     const ALL_SPACES          = "\xE2\x80\xAF|\xC2\xAD|\xC2\xA0|\\s"; // All supported spaces, used in regexps. Better than \s
+    const SEMICOLON           = ";";
+    const POINT               = ".";
 
     /**
      * @var array HTML Tags to bypass
